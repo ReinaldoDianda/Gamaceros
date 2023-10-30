@@ -17,6 +17,7 @@ export function createFooter () {
   facebookLink.target = '_blank'
   const facebookIcon = document.createElement('img')
   facebookIcon.src = 'https://res.cloudinary.com/doo95ngwf/image/upload/v1651876275/f_logo_RGB-Blue_1024_ekkzes.png' // Reemplaza esto con la URL de la imagen de Facebook
+  facebookIcon.classList.add('footer-icons-socia') // Agrega tu clase de CSS solo a este elemento
   facebookLink.appendChild(facebookIcon)
 
   socialIcons.appendChild(instagramLink)
@@ -30,6 +31,8 @@ export function createFooter () {
   phoneLink.target = '_blank'
   const phoneIcon = document.createElement('img')
   phoneIcon.src = 'https://res.cloudinary.com/doo95ngwf/image/upload/v1622427804/telefono.svg' // Reemplaza esto con la URL de la imagen del ícono del teléfono
+  phoneIcon.classList.add('footer-icons-socia') // Agrega tu clase de CSS solo a este elemento
+
   phoneLink.appendChild(phoneIcon)
   const phoneText = document.createElement('p')
   phoneText.innerHTML = '<svg width="30" height="30" viewBox="0 0 24 24">...</svg> +593 980 362 053'
