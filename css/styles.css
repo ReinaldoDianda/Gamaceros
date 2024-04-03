@@ -382,7 +382,7 @@ font-size: 15px;
 
 .service-title-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1706546138/Campana_yilg34.jpg"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1706736746/fondos_articu_uaxzmk.png"); 
   background-position: top;
   background-size: cover;
   display: grid;
@@ -433,7 +433,7 @@ color: #000000;
 /* Servicios especificos: Muebles */
 .article-muebles-title-image{ 
   height: 240px;
-  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1652119252/Lavado-de-Muebles_Bajo-brillo-para-fondos_vy0v5r.png"); 
+  background-image: url("https://res.cloudinary.com/doo95ngwf/image/upload/f_auto,q_auto/v1706736746/fondos_articu_uaxzmk.png"); 
   background-position: center;
   background-size: cover;
   display: grid;
@@ -663,6 +663,11 @@ section .main-div-button-404{
     display: grid;
     justify-items: center;
   }
+
+  .article-main-container div p{
+    margin: 5px;
+  }
+
   .article-main-container h2{
     font-size: 25px;
     margin: 20px 0;
